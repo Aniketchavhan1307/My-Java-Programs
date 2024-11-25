@@ -13,6 +13,8 @@ public class Kaprekar_no
 		
 		int temp = ip;
 		
+		
+		
 		int sqr = ip*ip;
 		
 		int count= count(sqr);
