@@ -10,7 +10,6 @@ public class Battery
 	
 	public Battery() 
 	{
-		
 	}
 	
 	Battery(String brand, int cap, String type , int warrenty, double price)
