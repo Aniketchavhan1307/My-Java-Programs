@@ -13,6 +13,62 @@ public class Pattern1
 		int n = scanner.nextInt();
 		
 //		Enter the Number : 
+//			13
+//			* * * *           * * * * 
+//			*     *           *     * 
+//			*     *           *     * 
+//			* * * * * * * * * * * * * 
+//			      *           *       
+//			      *           *       
+//			      *           *       
+//			      *           *       
+//			      *           *       
+//			* * * * * * * * * * * * * 
+//			*     *           *     * 
+//			*     *           *     * 
+//			* * * *           * * * * 
+		
+		for(int i=0; i<n; i++)
+			{
+				for(int j= 0 ; j<n; j++)
+				{
+					if(i==n/4 || j==n/4 || i==n/2+n/4 || j==n/2+n/4 || (j==0 && i<n/4) || (i==0 && j<n/4) || (i==0 && j>n/2+n/4)
+							|| (i<n/4 && j==n-1) || (i>n/2+n/4 && j==0) || (i==n-1 && j<n/4) || (i==n-1 && j>n/2+n/4) || (j==n-1 && i>n/2+n/4))
+					{
+						System.out.print("*"+" ");
+					}
+					else
+					{
+						System.out.print(" "+ " ");
+					}
+				}
+				System.out.println();
+			}
+	
+		
+		
+		
+//		for(int i=0; i<n; i++)
+//		{
+//			for(int space = 0; space<i; space++)
+//			{
+//				System.out.print("_"+" ");
+//			}
+//			
+//			
+//			for(int j=n; j>2*i-1 ; j--)
+//			{
+//				
+//					System.out.print("*" +" ");
+//					
+//			}
+//			
+//			System.out.println();
+//		}
+		
+		
+		
+//		Enter the Number : 
 //			9
 //			                * 
 //			              * * * 
