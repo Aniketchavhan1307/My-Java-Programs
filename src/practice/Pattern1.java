@@ -11,8 +11,7 @@ public class Pattern1
 		
 		Scanner scanner = new Scanner(System.in);
 		int n = scanner.nextInt();
-		
-		
+
 		
 //		Enter the Number : 
 //			9
