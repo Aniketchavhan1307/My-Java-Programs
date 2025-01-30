@@ -12,6 +12,100 @@ public class Pattern1
 		Scanner scanner = new Scanner(System.in);
 		int n = scanner.nextInt();
 		
+		
+		
+//		Enter the Number : 
+//			9
+//			        * 
+//			      * * * 
+//			    * * * * * 
+//			  * * * * * * * 
+//			* * * * * * * * * 
+//			  * * * * * * * 
+//			    * * * * * 
+//			      * * * 
+//			        * 
+
+		
+		
+//		int space =n/2;
+//		int star =1;
+//		
+//		for(int i = 0; i<n; i++)
+//		{
+//			for(int j =0; j<space; j++)
+//			{
+//				System.out.print(" "+ " ");
+//				
+//			}
+//			
+//			for(int j=0; j<star ; j++)
+//			{
+//				System.out.print("*"+" ");
+//			}
+//			
+//			if(i < n/2)
+//			{
+//				space--;
+//				star+=2;
+//			}
+//			else
+//			{
+//				space++;
+//				star-=2;
+//			}
+//			
+//			System.out.println();
+//		}
+//		
+		
+		
+		
+//		Enter the Number : 
+//			7
+//			      * 
+//			    * * 
+//			  * * * 
+//			* * * * 
+//			  * * * 
+//			    * * 
+//			      * 
+
+		
+//		int space =n/2;
+//		int star =1;
+//		
+//		for(int i = 0; i<n; i++)
+//		{
+//			for(int j =0; j<space; j++)
+//			{
+//				System.out.print(" "+ " ");
+//				
+//			}
+//			
+//			for(int j=0; j<star ; j++)
+//			{
+//				System.out.print("*"+" ");
+//			}
+//			
+//			if(i < n/2)
+//			{
+//				space--;
+//				star++;
+//			}
+//			else
+//			{
+//				space++;
+//				star--;
+//			}
+//			
+//			System.out.println();
+//		}
+//		
+		
+		
+		
+		
 //		Enter the Number : 
 //			13
 //			* * * *           * * * * 
@@ -28,22 +122,22 @@ public class Pattern1
 //			*     *           *     * 
 //			* * * *           * * * * 
 		
-		for(int i=0; i<n; i++)
-			{
-				for(int j= 0 ; j<n; j++)
-				{
-					if(i==n/4 || j==n/4 || i==n/2+n/4 || j==n/2+n/4 || (j==0 && i<n/4) || (i==0 && j<n/4) || (i==0 && j>n/2+n/4)
-							|| (i<n/4 && j==n-1) || (i>n/2+n/4 && j==0) || (i==n-1 && j<n/4) || (i==n-1 && j>n/2+n/4) || (j==n-1 && i>n/2+n/4))
-					{
-						System.out.print("*"+" ");
-					}
-					else
-					{
-						System.out.print(" "+ " ");
-					}
-				}
-				System.out.println();
-			}
+//		for(int i=0; i<n; i++)
+//			{
+//				for(int j= 0 ; j<n; j++)
+//				{
+//					if(i==n/4 || j==n/4 || i==n/2+n/4 || j==n/2+n/4 || (j==0 && i<n/4) || (i==0 && j<n/4) || (i==0 && j>n/2+n/4)
+//							|| (i<n/4 && j==n-1) || (i>n/2+n/4 && j==0) || (i==n-1 && j<n/4) || (i==n-1 && j>n/2+n/4) || (j==n-1 && i>n/2+n/4))
+//					{
+//						System.out.print("*"+" ");
+//					}
+//					else
+//					{
+//						System.out.print(" "+ " ");
+//					}
+//				}
+//				System.out.println();
+//			}
 	
 		
 		
